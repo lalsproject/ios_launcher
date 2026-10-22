@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Transparan + menampilkan wallpaper sistem; wallpaper bawaan digambar oleh view. -->
+    <style name="HomeTheme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="SettingsTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/ios_grouped_bg</item>
+        <item name="android:statusBarColor">@color/ios_grouped_bg</item>
+        <item name="android:navigationBarColor">@color/ios_grouped_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
